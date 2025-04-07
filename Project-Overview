@@ -1,0 +1,43 @@
+PROJECT PROCESS-
+
+1.Loaded the dataset into a pandas DataFrame.
+
+2.Conducted initial exploration:
+
+ -Checked for null values and duplicate values
+
+ -Examined data types and statistical summaries (df.info(), df.describe()).
+
+3.EDA
+
+ -Plotted histograms and KDE plots to examine the distribution of each feature.
+Identifying skewness and outliers in the data.
+
+ -Used boxplots to identify outliers.
+
+4.Data Preprocessing
+
+ -Checked for null or NaN values and handled missing values using median imputation.
+
+ -Checked for data imbalance and used oversampling for balancing the data.
+
+ -Feature Encoding
+  Converted categorical feature "Rainfall" using Label Encoding 
+ 
+ - Plotted correlation heatmaps to understand relationships and checked for multicollinearity.
+
+ - Feature Engineering
+   calculated temperature difference (max-min) as an additional feature to remove multicollinearity.
+
+ -standardized numeric features using standard scaling
+
+5.Model fitting
+
+ -Divided data into training (80%) and testing (20%) sets.
+
+ -Tested different models like logistic regression,random forest,SVC,XGBoost etc. and after comparing all models
+
+  SVC was selected as the best performing model 
+ 
+ -Confusion matrix and classification report is done.
+
