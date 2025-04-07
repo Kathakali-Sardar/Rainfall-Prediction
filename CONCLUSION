@@ -1,0 +1,16 @@
+CONCLUSION-
+
+-The dataset was thoroughly cleaned and preprocessed, with steps including handling missing values, encoding categorical features, and standardizing numerical features.
+
+-Exploratory Data Analysis (EDA) helped uncover patterns such as seasonal trends, regional variations, and frequency of rainfall events.
+
+-We tried four models: Logistic Regression, SVC, Random Forest, and XGBoost and after comparing all models
+ SVC was selected as the best performing model as the gap between the training and the validation accuracy is low and  gives high training and validation accuracy among all the models.
+
+                    Model  Training ROC-AUC  Validation ROC-AUC
+0     Logistic Regression          0.890154            0.895833
+1           Random Forest          1.000000            0.882083
+2  Support Vector Machine          0.911896            0.889167
+3                 XGBoost          1.000000            0.845000
+
+ -Overall, this project provides a strong foundation for building intelligent rainfall forecasting systems that can aid farmers, government bodies, and climate researchers in making data-driven decisions.
